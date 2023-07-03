@@ -1,6 +1,6 @@
-import getGl from '../src';
+import getWebGLContext from '../src';
 
 const canvas = document.createElement('canvas');
-const gl = getGl(canvas);
+const glContext = getWebGLContext(canvas);
 
-console.log(gl);
+console.log(glContext);
