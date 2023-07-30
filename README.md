@@ -1,17 +1,17 @@
-# GL Context
+# Web Graphic Library Context
 
-Get the WebGL context from a canvas.
+Get the Web Graphic Library context from a canvas.
 
 ## Installation
 
 ```sh
-$ npm install --save @ahmerhh/WebGraphicLibrary_Context
+$ npm install --save @ahmerhh/WebGraphicLibrary-context
 ```
 
 ## Usage
 
 ```js
-import getGl from '@ahmerhh/WebGraphicLibrary_Context';
+import getGl from '@ahmerhh/WebGraphicLibrary-context';
 
 const canvas = document.createElement('canvas');
 const gl = getWebGLContext(canvas);
@@ -29,7 +29,7 @@ Returns the `WebGraphicLibrary` context from the `canvas`. If it fails, `gl` is 
 
 ## License
 
-MIT, see [LICENSE.md](https://github.com/ahmerhh/WebGraphicLibrary_Context/blob/master/LICENSE.md) for more details.
+MIT, see [LICENSE.md](https://github.com/ahmerhh/WebGraphicLibrary-context/blob/master/LICENSE.md) for more details.
 
 ## Credits
 
