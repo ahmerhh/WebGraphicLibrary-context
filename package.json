@@ -1,36 +1,40 @@
 {
-    "name": "@ahmerhh/webgraphiclibrary_context",
-    "version": "1.0.5",
-    "description": "Get the WebGL context from a canva`s.",
-    "main": "dist/index.js",
-    "scripts": {
-      "start": "budo example/index.js --live -- -t babelify",
-      "test": "browserify test/index.js -t babelify | tape-run | tap-spec",
-      "build": "browserify src/index.js -t babelify -s @ahmerhh/WebGraphicLibrary_Context > dist/index.js",
-      "prepublish": "npm run build"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ahmerhh/WebGraphicLibrary_Context.git"
-    },
-    "keywords": [
-      "WebGL",
-      "context",
-      "canvas"
-    ],
-    "author": "Ahmer <ahmerhabibb@proton.me>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ahmerhh/WebGraphicLibrary_Context/issues"
-    },
-    "homepage": "https://github.com/ahmerhh/WebGraphicLibrary_Context#readme",
-    "devDependencies": {
-      "babel-preset-es2015": "^6.3.13",
-      "babelify": "^7.2.0",
-      "browserify": "^13.0.0",
-      "budo": "^8.0.3",
-      "tap-spec": "^4.1.1",
-      "tape": "^4.4.0",
-      "tape-run": "^2.1.3"
-    }
+  "name": "@ahmerhh/webgraphiclibrary-context",
+  "version": "1.0.5",
+  "description": "Get the WebGL context from a canva`s.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "budo example/index.js --live -- -t babelify",
+    "test": "browserify test/index.js -t babelify | tape-run | tap-spec",
+    "build": "browserify src/index.js -t babelify -s @ahmerhh/WebGraphicLibrary-context > dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmerhh/WebGraphicLibrary-context.git"
+  },
+  "keywords": [
+    "WebGL",
+    "context",
+    "canvas"
+  ],
+  "author": "Ahmer <ahmerhabibb@proton.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmerhh/WebGraphicLibrary-context/issues"
+  },
+  "homepage": "https://github.com/ahmerhh/WebGraphicLibrary-context#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "budo": "^8.0.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0",
+    "tape-run": "^2.1.3"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
+}
